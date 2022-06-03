@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home_page_css.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <section> <!--Header Section-->
+            <div class="header" id="header"> <!--Header-->
+                <div class="menu"> <!--Menu -->
+                    <ul>
+                        <li><a class="button active" href="#">Home</a class="button"></li>
+                        <li><a class="button" href="#">Service</a class="button"></li>
+                        <li><a class="button" href="contact/index.html">Contact</a class="button"></li>
+                        <li><a class="button" href="#">About</a></li>
+                    </ul>
+                </div><!--End Menu-->
+
+                <div class="logo"> <!--Logo-->
+                    <h1><a href="#" id="title">Rasel Hossain Adib</a></h1>
+                </div> <!--End Logo-->
+            </div> <!--End Header-->
+        </section>  <!--End Header Section-->
+
+        <section><!--DassBoard Section-->
+            <div class="dassboard" id="dassboard">
+                <div class="dassboard_title">
+                    <h2><a href="#">DassBoard</a></h2>
+                    
+                </div>
+            <div class="login">
+                <a href="loging/index.html">Login</a>
+                <a href="registraion/index.html">Registraion</a>
+
+            </div>
+        </section><!--End DassBoard Section-->
+        
+
+
+
+        <section><!--Main Contance-->
+            <div class="main_contant">
+                <div class="main_box"><!--main box-->
+                    <div id="main_box_right" class="main_box_right"><!-- main box right-->
+                        <a href="#"><h1>Coming Soon</h1></a>
+                        <a href="#"><h1>Real time currency calculator</h1></a>
+                        <a href="#"><h1>Weather App</h1></a>
+                        <a href="#"><h1>link</h1></a>
+                        <a href="#"><h1>Bank Account Datalists Print System</h1></a>
+                        <a href="#"><h1>School Management</h1></a>
+                        <a href="#"><h1>Blood Doonation</h1></a>
+                        <a href="#"><h1>CV Writing</h1></a>
+                        <a href="https://preview.colorlib.com/#corporate"><h1>Design Website</h1></a>
+                    </div><!--End main box right-->
+                    <!--End main box right-->
+
+
+
+
+                    <!-- main box left  -->
+                    <div class="main_box_left"><!--End main box left-->
+
+                        <div class="box_1"><!--box 1-->
+                            <p class="box_1_title_1">DISCOVER THE COLORFUL WORLD</p>
+                            <h1>BUILD YOUR DREAM</h1>
+                            <p class="box_1_title_2">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quasi incidunt voluptates veniam tempore blanditiis. Illo sint exercitationem id officia cum,<br> rerum doloremque, facere voluptatum sequi veritatis a natus<br> similique repellendus fuga explicabo, voluptate nam. Porro et necessitatibus<br> reprehenderit soluta eaque delectus corporis. Modi harum quos a numquam! Laborum, eaque dolorem.</p>
+                            <button class="box_1_btn">DISCOVER NOW</button>
+                        </div><!--End box 1-->
+
+
+                    </div><!--End main box leftt-->
+                    <!--End main box left-->
+
+                </div><!--End main Box-->
+
+
+
+
+
+
+
+            </div><!-- End Main Contance-->
+        </section><!--End Main Contance-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!--End container-->
+    <script src="js/script.js"></script>
+
+    <SCRIPT>
+        var bg_color_change = document.getElementById("header");
+        var header = document.getElementById("header");
+        var dassboard = document.getElementById("dassboard")
+        var main_box_right = document.getElementById("main_box_right")
+
+        // header background color color 
+        bg_color_change.addEventListener("click", function(){
+            header.style.backgroundColor = bg_color();
+        })
+
+        // dassboard color 
+        dassboard.addEventListener("click", function(){
+            dassboard.style.backgroundColor = bg_color();
+        })
+
+
+        // main_box_right color 
+        main_box_right.addEventListener("click", function(){
+            main_box_right.style.backgroundColor = bg_color();
+        })
+
+
+        function bg_color() {
+            // rgb(0, 0, 0), rgb(255, 255, 255)
+            const red = Math.floor(Math.random() * 255);
+            const green = Math.floor(Math.random() * 255);
+            const blue = Math.floor(Math.random() * 255);
+
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+    </SCRIPT>
+
+</body>
+</html>

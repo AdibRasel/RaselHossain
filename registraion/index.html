@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <section> <!--Header Section-->
+            <div class="header" id="header"> <!--Header-->
+                <div class="menu"> <!--Menu -->
+                    <ul>
+                        <li><a class="button active" href="../index.html">Home</a class="button"></li>
+                        <li><a class="button" href="#">Service</a class="button"></li>
+                        <li><a class="button" href="../contact/index.html">Contact</a class="button"></li>
+                        <li><a class="button" href="#">About</a></li>
+                    </ul>
+                </div><!--End Menu-->
+
+                <div class="logo"> <!--Logo-->
+                    <h1><a href="../index.html" id="title">Rasel Hossain Adib</a></h1>
+                </div> <!--End Logo-->
+            </div> <!--End Header-->
+        </section>  <!--End Header Section-->
+
+        <section><!--DassBoard Section-->
+            <div class="dassboard" id="dassboard">
+                <div class="dassboard_title">
+                    <h2><a href="#">DassBoard</a></h2>
+                    
+                </div>
+            <div class="login">
+                <a href="../loging/index.html">Login</a>
+                <a class="active" href="index.html">Registraion</a>
+
+            </div>
+        </section><!--End DassBoard Section-->
+        
+
+        <section><!--Registraion Form-->
+            <div class="reg_form">
+                <div class="form_control">
+                    <form action="">
+                        <h1>Registraion</h1>
+                        <div class="name">
+                            <label for="name">Name</label><br>
+                            <input id="first" name="name" type="text" placeholder="First">
+                            <input id="last" name="name" type="text" placeholder="Last">
+                            <span id="name_alart"></span>
+                        </div>
+
+                        <div class="email">
+                            <label for="email">Email</label><br>
+                            <input id="email" name="email" type="email" placeholder="email">
+                            <span id="email_alart"></span>
+                        </div>
+
+                        <div class="password">
+                            <label for="password">Password</label><br>
+                            <input id="password" name="password" type="password" placeholder="Password">
+                            <input id="confirm_password" name="password" type="password" placeholder="Confirm Password">
+                            <span id="password_alart"></span>
+                        </div>
+
+                        <div class="Birthdate">
+                            <label for="birthdate">Birthdate</label>
+                            <input id="birthdate" name="birthdate" type="date" placeholder="MM/DD/YY">
+                            <span id="birthdate_alart"></span>
+                        </div>
+
+                        <div class="phon">
+                            <label for="phon">Phon</label>
+                            <input id="phon" name="phon" type="text" placeholder="Phon Number">
+                            <span id="phon_alart"></span>
+                        </div>
+
+                        <div class="address">
+                            <label for="address">Address</label><br>
+                            <input id="address" name="address" type="text" placeholder="Street Address">
+                            <input id="address_2" name="address" type="text" placeholder="Street Address 2">
+                            <input id="city" name="address" type="text" placeholder="City">
+                            <input id="region" name="address" type="text" placeholder="Region">
+                            <input id="postal_code" name="address" type="text" placeholder="Postal / Zip Code">
+                            <input id="country" name="address" type="text" placeholder="Country">
+
+                        </div>
+
+                        <button id="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section><!--End Registraion Form-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!--End container-->
+    <script src="../js/script.js"></script>
+    <script src="script.js"></script>
+
+    <SCRIPT>
+        var bg_color_change = document.getElementById("header");
+        var header = document.getElementById("header");
+        var dassboard = document.getElementById("dassboard")
+
+        // header background color color 
+        bg_color_change.addEventListener("click", function(){
+            header.style.backgroundColor = bg_color();
+        })
+
+
+        dassboard.addEventListener("click", function(){
+            dassboard.style.backgroundColor = bg_color();
+        })
+
+
+        function bg_color() {
+            // rgb(0, 0, 0), rgb(255, 255, 255)
+            const red = Math.floor(Math.random() * 255);
+            const green = Math.floor(Math.random() * 255);
+            const blue = Math.floor(Math.random() * 255);
+
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+    </SCRIPT>
+
+</body>
+</html>

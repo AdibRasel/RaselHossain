@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <section> <!--Header Section-->
+            <div class="header" id="header"> <!--Header-->
+                <div class="menu"> <!--Menu -->
+                    <ul>
+                        <li><a class="button" href="../index.html">Home</a class="button"></li>
+                        <li><a class="button" href="#">Service</a class="button"></li>
+                        <li><a class="button" href="../contact/index.html">Contact</a class="button"></li>
+                        <li><a class="button" href="#">About</a></li>
+                    </ul>
+                </div><!--End Menu-->
+
+                <div class="logo"> <!--Logo-->
+                    <h1><a href="../index.html" id="title">Rasel Hossain Adib</a></h1>
+                </div> <!--End Logo-->
+            </div> <!--End Header-->
+        </section>  <!--End Header Section-->
+
+        <section><!--DassBoard Section-->
+            <div class="dassboard" id="dassboard">
+                <div class="dassboard_title">
+                    <h2><a href="#">DassBoard</a></h2>
+                    
+                </div>
+            <div class="login">
+                <a class="active" href="index.html">Login</a>
+                <a class="" href="../registraion/index.html">Registraion</a>
+
+            </div>
+        </section><!--End DassBoard Section-->
+
+
+
+       <section><!--Login-->
+        <div class="login_box">
+            <h1>Login</h1>
+            <form action="" class="form">
+                <div class="formcontrol">
+                    <label for="username">Username</label><br>
+                    <input id="username" id="username_color" type="text" class="" placeholder="name"><br>
+                    <span id="username_text"></span>
+                </div>
+
+                <div class="formcontrol">
+                    <label for="password">Password</label><br>
+                    <input id="password" id="password_color" class="" type="password" placeholder="password"><br>
+                    <span id="password_text"></span>
+                </div>
+                <!-- chack box -->
+                <div class="submit">
+                    <span>i agry trems and service</span>
+                    <button id="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+
+       </section><!--End Login-->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!--End container-->
+    <script src="../js/script.js"></script>
+    <script src="script_login.js"></script>
+
+    <SCRIPT>
+        var bg_color_change = document.getElementById("header");
+        var header = document.getElementById("header");
+        var dassboard = document.getElementById("dassboard")
+
+        // header background color color 
+        bg_color_change.addEventListener("click", function(){
+            header.style.backgroundColor = bg_color();
+        })
+
+
+        dassboard.addEventListener("click", function(){
+            dassboard.style.backgroundColor = bg_color();
+        })
+
+
+        function bg_color() {
+            // rgb(0, 0, 0), rgb(255, 255, 255)
+            const red = Math.floor(Math.random() * 255);
+            const green = Math.floor(Math.random() * 255);
+            const blue = Math.floor(Math.random() * 255);
+
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+    </SCRIPT>
+
+</body>
+</html>

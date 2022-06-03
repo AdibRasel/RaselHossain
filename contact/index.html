@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <section> <!--Header Section-->
+            <div class="header" id="header"> <!--Header-->
+                <div class="menu"> <!--Menu -->
+                    <ul>
+                        <li><a class="button" href="../index.html">Home</a class="button"></li>
+                        <li><a class="button" href="#">Service</a class="button"></li>
+                        <li><a class="button active" href="#">Contact</a class="button"></li>
+                        <li><a class="button" href="#">About</a></li>
+                    </ul>
+                </div><!--End Menu-->
+
+                <div class="logo"> <!--Logo-->
+                    <h1><a href="../index.html" id="title">Rasel Hossain Adib</a></h1>
+                </div> <!--End Logo-->
+            </div> <!--End Header-->
+        </section>  <!--End Header Section-->
+
+
+        <section><!--DassBoard Section-->
+            <div class="dassboard" id="dassboard">
+                <div class="dassboard_title">
+                    <h2><a href="#">DassBoard</a></h2>
+                </div>
+            <div class="login">
+                <a href="../loging/index.html">Login</a>
+                <a href="../registraion/index.html">Registraion</a>
+
+            </div>
+        </section><!--End DassBoard Section-->
+
+
+        <section><!--Contact Section-->
+            <div class="contact"> <!--Contact-->
+                <div class="photo"> <!--Photo-->
+                    <img src="image/RaselHossainAdib.jpg" alt="">
+                </div><!--End Photo-->
+                <div class="contact_me">
+                    <h1><u>Contact Me</u></h1>
+                    <h2>Rasel Hossain Adib</h2>
+                    <p>Location: Shibrampur (Midda Bari),<br> Shahapur, Chatkhil, Noakhali</p>
+                    <p>Mobile: 01934-544352, 01626-757897</p>
+                    <p>Email: adibrasel.com@gmail.com</p>
+                    <ul>
+                        <li>imo icon</li>
+                        <li>WhasApp icon</li>
+                        <li>Facebook icon</li>
+                        <li>Youtube icon</li>
+                    </ul>
+
+                </div><!--End Contact Me-->
+            </div><!-- End Contact-->
+        </section><!--End Contact Section-->
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!--End container-->
+    <script src="../js/script.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <!-- Backgroung Color Javascript Code  -->
+    <SCRIPT>
+        var bg_color_change = document.getElementById("header");
+        var header = document.getElementById("header");
+        var dassboard = document.getElementById("dassboard")
+
+        // header background color color 
+        bg_color_change.addEventListener("click", function(){
+            header.style.backgroundColor = bg_color();
+        })
+
+
+        dassboard.addEventListener("click", function(){
+            dassboard.style.backgroundColor = bg_color();
+        })
+
+
+        function bg_color() {
+            // rgb(0, 0, 0), rgb(255, 255, 255)
+            const red = Math.floor(Math.random() * 255);
+            const green = Math.floor(Math.random() * 255);
+            const blue = Math.floor(Math.random() * 255);
+
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+    </SCRIPT>
+
+</body>
+</html>

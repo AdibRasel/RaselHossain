@@ -1,0 +1,69 @@
+.reg_form{
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 2px 10px #456;
+    margin-top: 20px;
+    padding: 30px;
+    border-bottom: groove;
+    font-size: 25px;
+}
+.form_control{
+
+}
+.form_control h1{
+    text-align: center;
+    color:#456;
+    padding-bottom: 10px;
+}
+
+
+.name, .email, .password, .Birthdate, .phon, .address{
+    padding-bottom: 15px;
+    margin: 0;
+}
+.name input, .password input, #city, #region, #postal_code, #country{
+    width:45%;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.email input, .Birthdate input, .phon input, #address, #address_2{
+    width: 94%;
+    padding: 10px;
+    font-size: 20px;
+}
+#address, #address_2, #city, #region, #postal_code, #country{
+    margin-bottom: 10px;
+}
+
+.form_control button{
+    width: 98%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #03a8f4a1;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.form_control button:hover{
+    background-color:#03a9f4;
+    color:white
+}
+input{
+    border-radius: 5px;
+}
+input:focus{
+    outline: 0;
+    border-color:#03a9f4;
+}
+#name_alart, #email_alart, #password_alart, #birthdate_alart, #phon_alart{
+    font-size: 24px;
+    color:red;
+}
+
+
+.mystyle{
+    color : rgb(45, 181, 245);
+    border-color: #03a9f4;
+}
