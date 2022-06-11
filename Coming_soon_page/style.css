@@ -47,3 +47,7 @@ body{
     background-color: rgb(42, 8, 192);
     color:white;
 }
+a{
+    text-decoration: none;
+    color:white;
+}
