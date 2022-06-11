@@ -102,8 +102,13 @@
     padding-bottom: 20px;
 }
 .box h2{
-    margin-bottom: 50px;    
+    margin-bottom: 50px;   
+
 }
+.box h3{
+  margin-top:40px;
+}
+
 
 .count_box{
     color: white;

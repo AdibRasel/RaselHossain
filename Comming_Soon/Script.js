@@ -6,7 +6,7 @@ var second= document.getElementById("second");
 
 
 function countDawon(){
-    var eventTime = new Date("20 jun 2022 10:10:00")
+    var eventTime = new Date("23 jun 2022 10:10:00")
     var currentTime = new Date();
     var totalTime = eventTime - currentTime;
 
