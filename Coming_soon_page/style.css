@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    width: 97%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px 2px #444;
+
+}
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: blueviolet;
+}
+
+.left{
+    float:left;
+
+    margin-top: 15px;
+    background-color: yellowgreen;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+
+
+.right{
+    float:right;
+
+    margin-top: 15px;
+    background-color: yellowgreen;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.hover:hover{
+    background-color: rgb(42, 8, 192);
+    color:white;
+}
