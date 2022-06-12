@@ -1,83 +1,9 @@
-/* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
-    /* some CSS here */
-    .test{
-        width:200px;
-        height: 200px;
-        background-color: aqua;
-    }
-
-  }
-  
-  /* #### Mobile Phones Landscape #### */
-  @media screen and (max-device-width: 640px) and (orientation: landscape){
-    /* some CSS here */
-    .test{
-        width:300px;
-        height: 300px;
-        background-color: aqua;
-    }
-  }
-  
-  /* #### Mobile Phones Portrait or Landscape #### */
-  @media screen and (max-device-width: 640px){
-    /* some CSS here */
-    .test{
-        width:400px;
-        height: 400px;
-        background-color: aqua;
-    }
-  }
-  
-  /* #### iPhone 4+ Portrait or Landscape #### */
-  @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-    /* some CSS here */
-    .test{
-        width:500px;
-        height: 500px;
-        background-color: aqua;
-    }
-  }
-  
-  /* #### Tablets Portrait or Landscape #### */
-  @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-    /* some CSS here */
-    .test{
-        width:600px;
-        height: 600px;
-        background-color: aqua;
-    }
-  }
-  
-  /* #### Desktops #### */
-  @media screen and (min-width: 1024px){
-    /* some CSS here */
-    .test{
-        width:700px;
-        height: 700px;
-        background-color: aqua;
-    }
-  }
-
-
-
-
-
-
-
 *{
     margin:0;
     padding: 0;
 }
 
 
-@media screen and (max-width: 600px) {
-    .box {
-      /* float: none; */
-      width: 100%;
-      display: none;
-    }
-  }
   
 .container{
     background-image: url("bg.jpg") ;
