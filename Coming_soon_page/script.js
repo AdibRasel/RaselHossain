@@ -90,9 +90,9 @@ function test(){
 
 
 var countdownfunction = setInterval(function() {
-    // var targetDate = new Date("15 jun 2022 10:00:00");
+    var targetDate = new Date("12 jun 2023 10:00:00");
 
-    var targetDate = document.getElementById("event_Time")
+    var targetDate_kaj_ekhono_ses_hoy_ni_kaj_ses_korte_Hobe = document.getElementById("event_Time")
 
 
     var currentTime = new Date();
