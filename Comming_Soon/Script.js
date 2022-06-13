@@ -32,3 +32,12 @@ countDawon();
 setInterval(countDawon, 1000)
 
 // console.log(setInterval(countDawon()), 1000)
+
+
+// back button 
+
+function backbutton() {
+    window.history.back();
+    // alert("hello")
+  }
+

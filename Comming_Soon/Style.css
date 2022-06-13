@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-
+body{
+    height:auto;
+}
   
 .container{
     background-image: url("bg.jpg") ;
@@ -75,15 +77,35 @@ p{
 
 
 
-#day{
+.back{
+    width:90%;
+    /* background-color: aqua; */
+    margin:auto;
+    margin-top: 50px;
+}
+.right{
+    float: right;
+    padding: 10px;
+    background-color: blueviolet;
+    border: 2px solid #666;
+    border-radius: 30px;
+    color: white;
+}
+.right a{
+    color:white;
+    text-decoration: none;
+}
+.left{
+    float: left;
+    padding: 10px;
+    background-color: blueviolet;
+    border: 2px solid #666;
+    border-radius: 30px;
+    color: white;
 
 }
-#hour{
-
-}
-.minute{
-
-}
-#second{
-
+.left button{
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color:white
 }
