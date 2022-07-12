@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color: white; */
+    overflow: hidden;
+}
+
+/* button  */
+.button{
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: #03a8f4a1;
+    margin-right: 10px;
+    display: block;
+    font-weight: bold;
+    border-radius: 10px;
+    color:black
+}
+.button:hover{
+    background-color:#03a9f4;
+    color:white
+}
+.active{
+    background-color:#03a9f4;
+    color:white
+} 
+/* button end  */
+
+
+
+/* maind container  */
+.container{
+    width:95%;
+    margin: auto;
+    height: 3000px;
+    box-shadow: 0px 0px 20px 20px rgb(160, 160, 160);
+}
+/* end maind container  */
+
+
+/* header  */
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #cddc39;
+    margin: 0;
+    padding-top: 15px;
+    /* background-image:url("../image/header_bg.jpg");
+    background-position: center; */
+}
+
+
+
+/* Menu  */
+.menu{
+    padding-right:10px;
+    float:right;
+}
+.menu ul{
+}
+.menu ul li{
+    list-style: none;
+    float:left;
+
+}
+.menu ul li a{
+}
+.menu ul li a:hover{
+}
+/* end menu  */
+
+
+/* logo  */
+.logo{
+    float:left;
+    padding-left: 20px;
+    margin:auto;
+}
+.logo h1{
+    font-size: 30px;
+    font-family: cursive;
+    /* color: white; */
+    border: 2px dashed #00f;
+    text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #ffeb3b;
+    padding: 2px 10px 2px 10px;
+    display: block;
+}
+.logo h1:hover{
+    border: 2px dashed red;
+}
+.logo h1 a:hover{
+    color:white
+}
+
+
+
+/* DassBoard */
+.dassboard{
+    margin-top: 5px;
+    background-color: #4caf50;
+    width: 100%;
+    height: 40px;
+}
+.dassboard_title{
+    float: left;
+    margin-left: 50px;
+    background-color: #cddc39;
+    padding: 3px 15px 0px 15px;
+    height: 40px;
+}
+.dassboard_title a{
+    text-decoration: none;
+    color: white;
+}
+.dassboard_title:hover{
+    background-color:#03a9f4;
+    color:white
+}
+.login{
+    float: right;
+    margin-right: 35px;
+}
+.login a{
+    background-color: #4ebbaf;
+    margin-right: 20px;
+    height: 40px;
+    display: inline-block;
+    padding: 5px 15px 0px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+.login a:hover{
+    background-color:#03a9f4;
+    color:white
+}
+
+
+
